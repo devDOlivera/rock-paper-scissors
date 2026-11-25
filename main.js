@@ -9,3 +9,7 @@ function getComputerChoice() {
     return "scissors";
   }
 }
+
+function getHumanChoice() {
+  return window.prompt("Enter the choice (rock, paper or scissors)").toLowerCase();
+}
